@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7D22B86190EFB7C00C73C09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D22B85190EFB7C00C73C09 /* Cocoa.framework */; };
+		A7D22B90190EFB7C00C73C09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D22B8E190EFB7C00C73C09 /* InfoPlist.strings */; };
+		A7D22B92190EFB7C00C73C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22B91190EFB7C00C73C09 /* main.m */; };
+		A7D22B96190EFB7C00C73C09 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7D22B94190EFB7C00C73C09 /* Credits.rtf */; };
+		A7D22B99190EFB7C00C73C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22B98190EFB7C00C73C09 /* AppDelegate.m */; };
+		A7D22B9C190EFB7C00C73C09 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D22B9A190EFB7C00C73C09 /* MainMenu.xib */; };
+		A7D22B9E190EFB7C00C73C09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D22B9D190EFB7C00C73C09 /* Images.xcassets */; };
+		A7D22BA5190EFB7C00C73C09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D22BA4190EFB7C00C73C09 /* XCTest.framework */; };
+		A7D22BA6190EFB7C00C73C09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D22B85190EFB7C00C73C09 /* Cocoa.framework */; };
+		A7D22BAE190EFB7C00C73C09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D22BAC190EFB7C00C73C09 /* InfoPlist.strings */; };
+		A7D22BB0190EFB7C00C73C09 /* Cloud_Server_StatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22BAF190EFB7C00C73C09 /* Cloud_Server_StatusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7D22BA7190EFB7C00C73C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7D22B7A190EFB7C00C73C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D22B81190EFB7C00C73C09;
+			remoteInfo = "Cloud Server Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7D22B82190EFB7C00C73C09 /* Cloud Server Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Server Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D22B85190EFB7C00C73C09 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A7D22B88190EFB7C00C73C09 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A7D22B89190EFB7C00C73C09 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7D22B8A190EFB7C00C73C09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7D22B8D190EFB7C00C73C09 /* Cloud Server Status-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cloud Server Status-Info.plist"; sourceTree = "<group>"; };
+		A7D22B8F190EFB7C00C73C09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7D22B91190EFB7C00C73C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7D22B93190EFB7C00C73C09 /* Cloud Server Status-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cloud Server Status-Prefix.pch"; sourceTree = "<group>"; };
+		A7D22B95190EFB7C00C73C09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A7D22B97190EFB7C00C73C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7D22B98190EFB7C00C73C09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7D22B9B190EFB7C00C73C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7D22B9D190EFB7C00C73C09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7D22BA3190EFB7C00C73C09 /* Cloud Server StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cloud Server StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D22BA4190EFB7C00C73C09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A7D22BAB190EFB7C00C73C09 /* Cloud Server StatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cloud Server StatusTests-Info.plist"; sourceTree = "<group>"; };
+		A7D22BAD190EFB7C00C73C09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7D22BAF190EFB7C00C73C09 /* Cloud_Server_StatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud_Server_StatusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7D22B7F190EFB7C00C73C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D22B86190EFB7C00C73C09 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D22BA0190EFB7C00C73C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D22BA6190EFB7C00C73C09 /* Cocoa.framework in Frameworks */,
+				A7D22BA5190EFB7C00C73C09 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7D22B79190EFB7C00C73C09 = {
+			isa = PBXGroup;
+			children = (
+				A7D22B8B190EFB7C00C73C09 /* Cloud Server Status */,
+				A7D22BA9190EFB7C00C73C09 /* Cloud Server StatusTests */,
+				A7D22B84190EFB7C00C73C09 /* Frameworks */,
+				A7D22B83190EFB7C00C73C09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D22B83190EFB7C00C73C09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22B82190EFB7C00C73C09 /* Cloud Server Status.app */,
+				A7D22BA3190EFB7C00C73C09 /* Cloud Server StatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7D22B84190EFB7C00C73C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22B85190EFB7C00C73C09 /* Cocoa.framework */,
+				A7D22BA4190EFB7C00C73C09 /* XCTest.framework */,
+				A7D22B87190EFB7C00C73C09 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7D22B87190EFB7C00C73C09 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22B88190EFB7C00C73C09 /* AppKit.framework */,
+				A7D22B89190EFB7C00C73C09 /* CoreData.framework */,
+				A7D22B8A190EFB7C00C73C09 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7D22B8B190EFB7C00C73C09 /* Cloud Server Status */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22B97190EFB7C00C73C09 /* AppDelegate.h */,
+				A7D22B98190EFB7C00C73C09 /* AppDelegate.m */,
+				A7D22B9A190EFB7C00C73C09 /* MainMenu.xib */,
+				A7D22B9D190EFB7C00C73C09 /* Images.xcassets */,
+				A7D22B8C190EFB7C00C73C09 /* Supporting Files */,
+			);
+			path = "Cloud Server Status";
+			sourceTree = "<group>";
+		};
+		A7D22B8C190EFB7C00C73C09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22B8D190EFB7C00C73C09 /* Cloud Server Status-Info.plist */,
+				A7D22B8E190EFB7C00C73C09 /* InfoPlist.strings */,
+				A7D22B91190EFB7C00C73C09 /* main.m */,
+				A7D22B93190EFB7C00C73C09 /* Cloud Server Status-Prefix.pch */,
+				A7D22B94190EFB7C00C73C09 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7D22BA9190EFB7C00C73C09 /* Cloud Server StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22BAF190EFB7C00C73C09 /* Cloud_Server_StatusTests.m */,
+				A7D22BAA190EFB7C00C73C09 /* Supporting Files */,
+			);
+			path = "Cloud Server StatusTests";
+			sourceTree = "<group>";
+		};
+		A7D22BAA190EFB7C00C73C09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22BAB190EFB7C00C73C09 /* Cloud Server StatusTests-Info.plist */,
+				A7D22BAC190EFB7C00C73C09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7D22B81190EFB7C00C73C09 /* Cloud Server Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D22BB3190EFB7D00C73C09 /* Build configuration list for PBXNativeTarget "Cloud Server Status" */;
+			buildPhases = (
+				A7D22B7E190EFB7C00C73C09 /* Sources */,
+				A7D22B7F190EFB7C00C73C09 /* Frameworks */,
+				A7D22B80190EFB7C00C73C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloud Server Status";
+			productName = "Cloud Server Status";
+			productReference = A7D22B82190EFB7C00C73C09 /* Cloud Server Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7D22BA2190EFB7C00C73C09 /* Cloud Server StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D22BB6190EFB7D00C73C09 /* Build configuration list for PBXNativeTarget "Cloud Server StatusTests" */;
+			buildPhases = (
+				A7D22B9F190EFB7C00C73C09 /* Sources */,
+				A7D22BA0190EFB7C00C73C09 /* Frameworks */,
+				A7D22BA1190EFB7C00C73C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D22BA8190EFB7C00C73C09 /* PBXTargetDependency */,
+			);
+			name = "Cloud Server StatusTests";
+			productName = "Cloud Server StatusTests";
+			productReference = A7D22BA3190EFB7C00C73C09 /* Cloud Server StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7D22B7A190EFB7C00C73C09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oliver Lumby";
+				TargetAttributes = {
+					A7D22BA2190EFB7C00C73C09 = {
+						TestTargetID = A7D22B81190EFB7C00C73C09;
+					};
+				};
+			};
+			buildConfigurationList = A7D22B7D190EFB7C00C73C09 /* Build configuration list for PBXProject "Cloud Server Status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7D22B79190EFB7C00C73C09;
+			productRefGroup = A7D22B83190EFB7C00C73C09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D22B81190EFB7C00C73C09 /* Cloud Server Status */,
+				A7D22BA2190EFB7C00C73C09 /* Cloud Server StatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7D22B80190EFB7C00C73C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D22B90190EFB7C00C73C09 /* InfoPlist.strings in Resources */,
+				A7D22B9E190EFB7C00C73C09 /* Images.xcassets in Resources */,
+				A7D22B96190EFB7C00C73C09 /* Credits.rtf in Resources */,
+				A7D22B9C190EFB7C00C73C09 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D22BA1190EFB7C00C73C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D22BAE190EFB7C00C73C09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7D22B7E190EFB7C00C73C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D22B99190EFB7C00C73C09 /* AppDelegate.m in Sources */,
+				A7D22B92190EFB7C00C73C09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D22B9F190EFB7C00C73C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D22BB0190EFB7C00C73C09 /* Cloud_Server_StatusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7D22BA8190EFB7C00C73C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D22B81190EFB7C00C73C09 /* Cloud Server Status */;
+			targetProxy = A7D22BA7190EFB7C00C73C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7D22B8E190EFB7C00C73C09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D22B8F190EFB7C00C73C09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7D22B94190EFB7C00C73C09 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D22B95190EFB7C00C73C09 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A7D22B9A190EFB7C00C73C09 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D22B9B190EFB7C00C73C09 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A7D22BAC190EFB7C00C73C09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D22BAD190EFB7C00C73C09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7D22BB1190EFB7D00C73C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7D22BB2190EFB7D00C73C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7D22BB4190EFB7D00C73C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cloud Server Status/Cloud Server Status-Prefix.pch";
+				INFOPLIST_FILE = "Cloud Server Status/Cloud Server Status-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7D22BB5190EFB7D00C73C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cloud Server Status/Cloud Server Status-Prefix.pch";
+				INFOPLIST_FILE = "Cloud Server Status/Cloud Server Status-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7D22BB7190EFB7D00C73C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cloud Server Status.app/Contents/MacOS/Cloud Server Status";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cloud Server Status/Cloud Server Status-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cloud Server StatusTests/Cloud Server StatusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A7D22BB8190EFB7D00C73C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cloud Server Status.app/Contents/MacOS/Cloud Server Status";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cloud Server Status/Cloud Server Status-Prefix.pch";
+				INFOPLIST_FILE = "Cloud Server StatusTests/Cloud Server StatusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7D22B7D190EFB7C00C73C09 /* Build configuration list for PBXProject "Cloud Server Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D22BB1190EFB7D00C73C09 /* Debug */,
+				A7D22BB2190EFB7D00C73C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D22BB3190EFB7D00C73C09 /* Build configuration list for PBXNativeTarget "Cloud Server Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D22BB4190EFB7D00C73C09 /* Debug */,
+				A7D22BB5190EFB7D00C73C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7D22BB6190EFB7D00C73C09 /* Build configuration list for PBXNativeTarget "Cloud Server StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D22BB7190EFB7D00C73C09 /* Debug */,
+				A7D22BB8190EFB7D00C73C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7D22B7A190EFB7C00C73C09 /* Project object */;
+}
