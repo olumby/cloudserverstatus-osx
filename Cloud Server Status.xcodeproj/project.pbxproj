@@ -18,6 +18,11 @@
 		A7D22BA6190EFB7C00C73C09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D22B85190EFB7C00C73C09 /* Cocoa.framework */; };
 		A7D22BAE190EFB7C00C73C09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D22BAC190EFB7C00C73C09 /* InfoPlist.strings */; };
 		A7D22BB0190EFB7C00C73C09 /* Cloud_Server_StatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22BAF190EFB7C00C73C09 /* Cloud_Server_StatusTests.m */; };
+		A7D22BBC190EFBC300C73C09 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22BBA190EFBC300C73C09 /* PreferencesWindowController.m */; };
+		A7D22BBD190EFBC300C73C09 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D22BBB190EFBC300C73C09 /* PreferencesWindowController.xib */; };
+		A7D22BC1190EFC5500C73C09 /* OLCloudServers.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22BC0190EFC5500C73C09 /* OLCloudServers.m */; };
+		A7D22BC6190F0CA900C73C09 /* NewServerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D22BC4190F0CA900C73C09 /* NewServerWindowController.m */; };
+		A7D22BC7190F0CA900C73C09 /* NewServerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D22BC5190F0CA900C73C09 /* NewServerWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,14 @@
 		A7D22BAB190EFB7C00C73C09 /* Cloud Server StatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cloud Server StatusTests-Info.plist"; sourceTree = "<group>"; };
 		A7D22BAD190EFB7C00C73C09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7D22BAF190EFB7C00C73C09 /* Cloud_Server_StatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud_Server_StatusTests.m; sourceTree = "<group>"; };
+		A7D22BB9190EFBC300C73C09 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesWindowController.h; path = Classes/PreferencesWindowController.h; sourceTree = "<group>"; };
+		A7D22BBA190EFBC300C73C09 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesWindowController.m; path = Classes/PreferencesWindowController.m; sourceTree = "<group>"; };
+		A7D22BBB190EFBC300C73C09 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesWindowController.xib; path = Classes/PreferencesWindowController.xib; sourceTree = "<group>"; };
+		A7D22BBF190EFC5500C73C09 /* OLCloudServers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLCloudServers.h; sourceTree = "<group>"; };
+		A7D22BC0190EFC5500C73C09 /* OLCloudServers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLCloudServers.m; sourceTree = "<group>"; };
+		A7D22BC3190F0CA900C73C09 /* NewServerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewServerWindowController.h; sourceTree = "<group>"; };
+		A7D22BC4190F0CA900C73C09 /* NewServerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewServerWindowController.m; sourceTree = "<group>"; };
+		A7D22BC5190F0CA900C73C09 /* NewServerWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewServerWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +131,9 @@
 				A7D22B97190EFB7C00C73C09 /* AppDelegate.h */,
 				A7D22B98190EFB7C00C73C09 /* AppDelegate.m */,
 				A7D22B9A190EFB7C00C73C09 /* MainMenu.xib */,
+				A7D22BC8190F0CAB00C73C09 /* NewServerWindow */,
+				A7D22BBE190EFBC700C73C09 /* PreferencesWindow */,
+				A7D22BC2190EFC5900C73C09 /* OLCloudServers */,
 				A7D22B9D190EFB7C00C73C09 /* Images.xcassets */,
 				A7D22B8C190EFB7C00C73C09 /* Supporting Files */,
 			);
@@ -152,6 +168,35 @@
 				A7D22BAC190EFB7C00C73C09 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7D22BBE190EFBC700C73C09 /* PreferencesWindow */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22BB9190EFBC300C73C09 /* PreferencesWindowController.h */,
+				A7D22BBA190EFBC300C73C09 /* PreferencesWindowController.m */,
+				A7D22BBB190EFBC300C73C09 /* PreferencesWindowController.xib */,
+			);
+			name = PreferencesWindow;
+			sourceTree = "<group>";
+		};
+		A7D22BC2190EFC5900C73C09 /* OLCloudServers */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22BBF190EFC5500C73C09 /* OLCloudServers.h */,
+				A7D22BC0190EFC5500C73C09 /* OLCloudServers.m */,
+			);
+			name = OLCloudServers;
+			sourceTree = "<group>";
+		};
+		A7D22BC8190F0CAB00C73C09 /* NewServerWindow */ = {
+			isa = PBXGroup;
+			children = (
+				A7D22BC3190F0CA900C73C09 /* NewServerWindowController.h */,
+				A7D22BC4190F0CA900C73C09 /* NewServerWindowController.m */,
+				A7D22BC5190F0CA900C73C09 /* NewServerWindowController.xib */,
+			);
+			name = NewServerWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +278,9 @@
 				A7D22B90190EFB7C00C73C09 /* InfoPlist.strings in Resources */,
 				A7D22B9E190EFB7C00C73C09 /* Images.xcassets in Resources */,
 				A7D22B96190EFB7C00C73C09 /* Credits.rtf in Resources */,
+				A7D22BBD190EFBC300C73C09 /* PreferencesWindowController.xib in Resources */,
 				A7D22B9C190EFB7C00C73C09 /* MainMenu.xib in Resources */,
+				A7D22BC7190F0CA900C73C09 /* NewServerWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D22B99190EFB7C00C73C09 /* AppDelegate.m in Sources */,
+				A7D22BBC190EFBC300C73C09 /* PreferencesWindowController.m in Sources */,
 				A7D22B92190EFB7C00C73C09 /* main.m in Sources */,
+				A7D22BC1190EFC5500C73C09 /* OLCloudServers.m in Sources */,
+				A7D22BC6190F0CA900C73C09 /* NewServerWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
