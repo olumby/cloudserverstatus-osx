@@ -1,5 +1,4 @@
 # Cloud Server Status for OS X
-=====================
 
 This is a little Menu Bar tool for OS X to help manage Cloud servers. It is heavily inspired by [DigitalOcean Indicator](https://github.com/andrewsomething/digitalocean-indicator) by Andrewsomething.
 
